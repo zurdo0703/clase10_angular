@@ -1,0 +1,24 @@
+
+Package Control en sublime
+Instalar 
+
+typeScript // para archivos de extencion .ts
+AngularJS
+AngularJS (CoffeeScript)
+AngularJS Snippets
+AngularZen
+Angular CLI
+
+Instalar en Git Bash
+npm install -g @angular/cli
+
+Comandos angular Git
+
+ng new CafeAmor //Crea el proyecto 
+ng serve // Inicia el servidor
+ctrl c // Cierra el servidor
+ng g c componentes/header // Crea el componente en este caso la cabeza del proyecto
+ng g cl componentes/header // Crea clase
+
+git flow feature start Medicos
+git flow feature finish Medicos
