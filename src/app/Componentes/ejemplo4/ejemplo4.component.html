@@ -1,0 +1,73 @@
+<!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        General Form Elements
+        <small>Preview</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">Forms</a></li>
+        <li class="active">General Elements</li>
+      </ol>
+    </section>
+
+    <section class="content">
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <!-- Input addon -->
+          <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title">Registro de Estudiantes</h3>
+            </div>
+            <div class="box-body">
+              <div class="input-group">
+                <span class="input-group-addon">Nombre:</span>
+                <input type="text" class="form-control" placeholder="Nombre Estudiante">
+              </div>
+              <br>
+              <div class="input-group">
+                <span class="input-group-addon">Apellido:</span>
+                <input type="text" class="form-control" placeholder="Apellido Estudiante">
+              </div>
+              <br>
+              <div class="input-group">
+                <span class="input-group-addon">Materia a Tomar:</span>
+                <select class="form-control" >
+                  <option *ngFor="let asignatura of Materias" value="{{ asignatura }}">{{ asignatura }}</option>  
+                </select>
+              </div>
+              <br>
+              
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <br>
+
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                <input type="text" class="form-control">
+                <span class="input-group-addon"><i class="fa fa-indent"></i></span>
+              </div>
+              <br>
+
+              <div class="text-center">
+                <input class="btn btn-info" type="button" value="Registrar">
+              </div>
+       
+              <!-- /input-group -->
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>  
+        <div class="col-md-2">
+        </div>  
+      </div>
+    </section>
+
+  </div>
